@@ -34,10 +34,6 @@
 }
 
 .theme-dark .header__theme-menu-button:focus-visible::after {
-  outline: none;
-}
-
-.theme-dark .header__theme-menu-button:focus-visible::after {
   content: '';
   position: absolute;
   left: 0;
@@ -50,12 +46,9 @@
 
 .theme-dark .link:focus-visible {
   outline: none;
+  outline: 1px solid var(--text-color);
 }
 
 .theme-dark .link:hover {
   border-bottom: 1px solid var(--text-color);
-}
-
-.theme-dark .link:focus-visible {
-  outline: 1px solid var(--text-color);
 }
